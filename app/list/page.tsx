@@ -149,7 +149,7 @@ const page: React.FC = () => {
     </div>
 
     <FormInput
-      label="Price IN STT (e.g 0.01)"
+      label="Price IN tTRUST (e.g 0.01)"
       type="number"
       id="price"
       value={formData.price}

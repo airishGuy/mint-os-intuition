@@ -101,7 +101,7 @@ export const CollectionCard: React.FC<CollectionCardProps> = ({
                         Amount Minted: {String(collection.amountMinted)}/{String(collection.maxSupply)}
                     </p>
                     <h3 className="text-lg font-semibold mb-2">
-                        Price: {weiToEther(String(collection.price))} STT
+                        Price: {weiToEther(String(collection.price))} tTRUST
                     </h3>
                     
                     {address ? (
